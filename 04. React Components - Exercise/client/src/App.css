@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#root {
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.warper{
+  display: inline-block;
+  position: relative;
+}
+
+.warper .sliderImg{
+  max-height: 400px;
+}
+
+.warper .slider-button{
+  position: absolute;
+  top:80%;
+  transform:translateY(-50%);
+  width: 120px;
+  height: 120px;
+}
+
+.warper .case-left {
+  left: 0;
+}
+.warper .case-right {
+  right: 0;
+}
+
+.case-left:hover, .case-right:hover {
+  cursor: pointer;
+}
+
+.char {
+  border: 3px solid black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.char-img {
+  max-height: 222px;
+}
+
+.char-img:hover {
+  cursor: pointer;
+}
+
+.bio {  
+  width: 47%;
+  margin: auto;
+  border: 1px solid white;
+}
+
+.bio p {
+  width: 90%;
+  margin: auto;
+}
+

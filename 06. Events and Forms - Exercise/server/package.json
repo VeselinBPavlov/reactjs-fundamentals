@@ -1,0 +1,25 @@
+{
+  "name": "cars-system",
+  "version": "0.0.1",
+  "description": "Cars system",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "author": "VP",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "cors": "2.8.3",
+    "express": "4.15.3",
+    "jsonwebtoken": "7.4.1",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "validator": "7.2.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
