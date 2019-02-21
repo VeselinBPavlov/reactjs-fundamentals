@@ -9,8 +9,3 @@
 06. Add-On Libraries
 07. Redux
 
-## Status:
-Uncompleted.
-
-## Certificate:
-none
