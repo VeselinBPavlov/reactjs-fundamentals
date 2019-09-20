@@ -1,4 +1,4 @@
-# Course: ReactJS Fundamentals
+# Course: ReactJS
 
 ## Topics:
 01. Intro to ReactJS
